@@ -1,4 +1,4 @@
-name: Build and Publish Distroless gffcompare
+name: Build and Publish gffcompare
 
 on:
   push:

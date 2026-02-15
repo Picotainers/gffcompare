@@ -1,5 +1,5 @@
 # gffcompare
-Small, distroless-when-possible container for `gffcompare`.
+Small compatibility-focused container for `gffcompare`.
 
 ## how to use
 ```bash
