@@ -1,7 +1,18 @@
 # gffcompare
 Small compatibility-focused container for `gffcompare`.
 
-## how to use
+## Quick Usage
+
 ```bash
-docker run --rm -v "$(pwd):/data" picotainers/gffcompare:latest --help
+# Pull the image
+docker pull docker.io/picotainers/gffcompare:latest
+
+# Run the tool
+docker run --rm docker.io/picotainers/gffcompare:latest gffcompare --help
+```
+
+## How to use
+
+```bash
+docker run --rm -v "$(pwd):/data" docker.io/picotainers/gffcompare:latest --help
 ```
