@@ -26,4 +26,4 @@ RUN apt-get update \
 COPY --from=builder /tmp/gffcompare/gffcompare /usr/local/bin/gffcompare
 
 WORKDIR /data
-ENTRYPOINT ["/usr/local/bin/gffcompare"]
+CMD ["gffcompare"]

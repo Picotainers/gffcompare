@@ -14,5 +14,5 @@ docker run --rm docker.io/picotainers/gffcompare:latest gffcompare --help
 ## How to use
 
 ```bash
-docker run --rm -v "$(pwd):/data" docker.io/picotainers/gffcompare:latest --help
+docker run --rm -v "$(pwd):/data" docker.io/picotainers/gffcompare:latest gffcompare --help
 ```
